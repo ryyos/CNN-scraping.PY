@@ -10,7 +10,7 @@ class Main:
         pass
 
     def ex(self):
-        self.__scrapper.ex(main_url=self.__main_url)
+        self.__scrapper.ex(main_url=self.__main_url, page=1)
 
 
 if __name__ == '__main__':

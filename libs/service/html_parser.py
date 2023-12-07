@@ -4,6 +4,7 @@ import re
 from time import sleep
 from pyquery import PyQuery
 from requests import Response
+from datetime import datetime as time
 from libs.utils.parser import HtmlParser
 
 class Scrapper:
@@ -39,8 +40,13 @@ class Scrapper:
         return urls
 
     def __filter_str(self, text: str) -> str:
-        return text.replace('ADVERTISEMENT SCROLL TO CONTINUE WITH CONTENT', ' ').replace('[Gambas:Video CNN]', '').replace('/', ' ').replace('\xa0k', ' ')
+        cleaned_text = text.replace('ADVERTISEMENT SCROLL TO CONTINUE WITH CONTENT', ' ') \
+                           .replace('[Gambas:Video CNN]', '') \
+                           .replace('/', ' ') \
+                           .replace('\xa0k', ' ') \
+                           .replace('\u00a0', '')
             
+        return cleaned_text
 
 
     def extract_data(self, req_url: str):
@@ -56,21 +62,33 @@ class Scrapper:
             'tags': [re.sub(r'\s+', ' ', tag.text.strip()) for tag in self.__parser.ex(html=body, selector='div.my-5 a')],
             'article': self.__filter_str(text=self.__parser.ex(html=body, selector='p').text())
         }
-        print(result_extract)
-        
+        # print(result_extract)
+        sleep(1)
         return result_extract
         
 
 
-    def ex(self, main_url: str) -> None:
+    def ex(self, main_url: str, page: int) -> None:
         
         urls = self.filter_url(req_url=main_url)
-        # print(urls)
 
         for index, url in enumerate(urls):
-            self.extract_data(req_url=url)
-            self.__temporary[index]['konten'] = self.extract_data(req_url=main_url)
+            # self.extract_data(req_url=url)
+            self.__temporary[index]['konten'] = self.extract_data(req_url=url)
         
+        self.__results.update({
+            'page': page,
+            'main_url': main_url,
+            'time': str(time.now()),
+            'datas': self.__temporary
+        })
+
+        with open('private/data/test6.json', 'w') as file:
+            json.dump(self.__results, file, indent=2)
+
+        sleep(10)
+        return self.__results
+
         
 
         
