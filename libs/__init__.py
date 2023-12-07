@@ -1,0 +1,1 @@
+from .service.html_parser import Scrapper
