@@ -6,12 +6,13 @@ from pyquery import PyQuery
 from requests import Response
 from datetime import datetime as time
 from libs.utils.parser import HtmlParser
+from libs.utils.logs import Logs
 
 class Scrapper:
     def __init__(self) -> None:
         self.__temporary: list[dict] = []
         self.__results: dict = dict()
-        self.__results.update({'konten': []})
+        self.__logs: Logs = Logs()
         self.__parser = HtmlParser()
         pass
     
@@ -28,7 +29,7 @@ class Scrapper:
             header_data: dict = {
                 'id': id,
                 'title': self.__parser.ex(html=article, selector='a span:last-child h2').text(),
-                'tag': self.__parser.ex(html=article, selector='a span:last-child span:first-child').text(),
+                'categories': self.__parser.ex(html=article, selector='a span:last-child span:first-child').text(),
                 'url': self.__parser.ex(html=article, selector='a').attr('href')
             }
 
@@ -44,13 +45,15 @@ class Scrapper:
                            .replace('[Gambas:Video CNN]', '') \
                            .replace('/', ' ') \
                            .replace('\xa0k', ' ') \
-                           .replace('\u00a0', '')
+                           .replace('\u00a0', '') \
+                           .replace('\"', "'") \
+                           .replace('\n', '')
             
         return cleaned_text
 
 
-    def extract_data(self, req_url: str):
-        print('url masuk scraping -> ', req_url)
+    def extract_data(self, req_url: str, log_page: int, log_no: int, log_base_url: str, log_url_scrap: str, log_title: str):
+        self.__logs.ex(page=log_page, base_url=log_base_url, child_url=log_url_scrap, title=log_title, no=log_no)
 
         response: Response = requests.get(url=req_url)
         html: PyQuery = PyQuery(response.text)
@@ -62,19 +65,25 @@ class Scrapper:
             'tags': [re.sub(r'\s+', ' ', tag.text.strip()) for tag in self.__parser.ex(html=body, selector='div.my-5 a')],
             'article': self.__filter_str(text=self.__parser.ex(html=body, selector='p').text())
         }
-        # print(result_extract)
-        sleep(1)
+        
         return result_extract
         
 
 
     def ex(self, main_url: str, page: int) -> None:
-        
+        no = 0
+
         urls = self.filter_url(req_url=main_url)
+        if len(urls) == 0: return 'Empety'
 
         for index, url in enumerate(urls):
-            # self.extract_data(req_url=url)
-            self.__temporary[index]['konten'] = self.extract_data(req_url=url)
+            no += 1
+            self.__temporary[index]['konten'] = self.extract_data(req_url=url, \
+                                                                    log_page=page, \
+                                                                    log_no=no, \
+                                                                    log_base_url=main_url, \
+                                                                    log_url_scrap=url, \
+                                                                    log_title=self.__temporary[index].get('title'))
         
         self.__results.update({
             'page': page,
@@ -83,10 +92,6 @@ class Scrapper:
             'datas': self.__temporary
         })
 
-        with open('private/data/test6.json', 'w') as file:
-            json.dump(self.__results, file, indent=2)
-
-        sleep(10)
         return self.__results
 
         
