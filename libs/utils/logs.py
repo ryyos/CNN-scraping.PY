@@ -1,18 +1,15 @@
-from datetime import datetime as time
+import logging
 
-class Logs:
-    def __init__(self) -> None:
-        pass
 
-    def ex(self, page: int, no: int, title: str, base_url: str, child_url: str) -> None:
-        log = f"""
-Page: {page}
-No: {no}
-Title: {title}
-Base_url: {base_url}
-scrapping_url: {child_url}
-Status: success
-Time: {time.now()}
-            """
-        
-        print(log)
+logging.basicConfig(datefmt='%m/%d/%Y %I:%M:%S %p', encoding="utf-8", level=logging.DEBUG)
+formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p')
+
+console = logging.StreamHandler()
+console.setLevel(level=logging.DEBUG) 
+console.setFormatter(formatter)
+
+logger = logging.getLogger()
+for existing_handler in logger.handlers[:]:
+       logger.removeHandler(existing_handler)
+
+logger.addHandler(console)
