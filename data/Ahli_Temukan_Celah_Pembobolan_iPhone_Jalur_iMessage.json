@@ -1,0 +1,24 @@
+{
+  "domain": "www.cnnindonesia.com",
+  "crawling_time": "2024-01-08 12:53:47.825703",
+  "crawling_time_epoch": 1704693227,
+  "url": "https://www.cnnindonesia.com/indeks/2/74",
+  "title": "Ahli Temukan Celah Pembobolan iPhone Jalur iMessage",
+  "categories": "Teknologi",
+  "article": {
+    "content_url": "https://www.cnnindonesia.com/teknologi/20240105094357-192-1045528/ahli-temukan-celah-pembobolan-iphone-jalur-imessage",
+    "posted": "Jumat, 05 Jan 2024 12:30 WIB",
+    "media_url": "https://akcdn.detik.net.id/visual/2015/03/23/cb13daac-e769-4522-8e71-b63037ca79b7_169.jpg?w=650&q=90",
+    "tags": [
+      "iphone",
+      "iphone 15",
+      "apple",
+      "hacker",
+      "imessage",
+      "peretasan",
+      "keamanan siber",
+      "kaspersky"
+    ],
+    "article": "Pakar mengungkap kerentanan dalam sistem iPhoneyang berisiko menjadi jalurpencurian data modus zero-click. Tim Riset dan Analisis Global (GReAT) Kasperskymenyingkap fitur perangkat keras yang sebelumnya tidak diketahui pada iPhone, yang sangat penting dalam kampanye Operasi Triangulasi. Operasi Triangulasi adalah kampanye Ancaman Persisten Tingkat Lanjut (APT) yang menargetkan perangkat iOS, yang ditemukan oleh Kaspersky awal musim panas tahun lalu.    Kampanye canggih ini menggunakan eksploitasi zero-click (pembobolansistem tanpa perlu korban mengklik persetujuan apa pun) yang didistribusikan melalui iMessage. Hal ini memungkinkan penyerang mendapatkan kendali penuh atas perangkat target dan mengakses data pengguna. Tim GReAT Kaspersky menemukan kerentanan tersebut dalam Sistem Apple pada sebuah chip, atau SoC, yang memainkan peran penting dalam kampanye serangan tersebut. Jenis serangan ini memungkinkan penyerang melewati perlindungan memori berbasis perangkat keras pada iPhone yang menjalankan versi iOS hingga iOS 16.6.  Kerentanan tersebut merupakan fitur perangkat keras, mungkin didasarkan pada prinsip 'keamanan melalui ketidakjelasan,' dan mungkin dimaksudkan untuk pengujian atau debugging. Dalam Operasi Triangulasi, setelah serangan awal iMessage zero click dan peningkatan hak istimewa, penyerang bisa memanfaatkan fitur perangkat keras yang menjadi kerentanan ini untuk melewati perlindungan keamanan berbasis perangkat keras dan memanipulasi konten di area memori yang terlindungi. Langkah ini disebut penting untuk mendapatkan kendali penuh atas perangkat.  Meski demikian, Apple telah mengatasi masalah tersebut, yang diidentifikasi sebagai CVE-2023-38606. Menurut Kaspersky, fitur ini tidak didokumentasikan secara publik, sehingga menghadirkan tantangan signifikan dalam pendeteksian dan analisisnya jika menggunakan metode keamanan konvensional. Para peneliti GReATpun melakukan rekayasa balik ekstensif dan menganalisis integrasi perangkat keras serta perangkat lunak iPhone, khususnya berfokus pada alamat Memory-Mapped I O, atau MMIO. MMIO adalah bagian yang sangat penting untuk memfasilitasi komunikasi yang efisien antara CPU dan perangkat periferal dalam sistem.  Alamat MMIO yang tidak diketahui, yang digunakan oleh penyerang untuk melewati perlindungan memori kernel berbasis perangkat keras, tidak teridentifikasi, sehingga menghadirkan tantangan yang signifikan. Tim juga harus menguraikan cara kerja rumit SoC dan interaksinya dengan sistem operasi iOS, terutama terkait manajemen memori dan mekanisme perlindungan. Proses analisis ini melibatkan pemeriksaan menyeluruh terhadap berbagai file pada perangkat, kode sumber, image kernel, dan firmware, dalam upaya menemukan referensi ke alamat MMIO ini.  'Ini bukan kerentanan biasa. Karena sifat ekosistem iOS yang tertutup, proses penemuannya menantang dan memakan waktu, sehingga memerlukan pemahaman komprehensif tentang arsitektur perangkat keras dan perangkat lunak,' ujar komentar Boris Larin, Peneliti Keamanan Utama di GReAT Kaspersky dalam sebuah keterangan, Selasa (2 1). 'Penemuan ini sekali lagi mengajarkan kepada kita bahwa bahkan perlindungan berbasis perangkat keras yang canggih sekalipun dapat menjadi tidak efektif dalam menghadapi penyerang yang canggih, terutama ketika ada fitur perangkat keras yang memungkinkan untuk menerobos perlindungan ini,' tambahnya. "
+  }
+}

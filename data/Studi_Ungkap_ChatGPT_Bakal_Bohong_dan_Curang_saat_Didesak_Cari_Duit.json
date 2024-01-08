@@ -1,0 +1,22 @@
+{
+  "domain": "www.cnnindonesia.com",
+  "crawling_time": "2024-01-08 13:31:11.391386",
+  "crawling_time_epoch": 1704695471,
+  "url": "https://www.cnnindonesia.com/indeks/2/227",
+  "title": "Studi Ungkap ChatGPT Bakal Bohong dan Curang saat Didesak Cari Duit",
+  "categories": "Teknologi",
+  "article": {
+    "content_url": "https://www.cnnindonesia.com/teknologi/20231229202144-185-1043360/studi-ungkap-chatgpt-bakal-bohong-dan-curang-saat-didesak-cari-duit",
+    "posted": "Sabtu, 30 Des 2023 08:59 WIB",
+    "media_url": "https://akcdn.detik.net.id/visual/2023/04/01/chatgpt_169.jpeg?w=650&q=90",
+    "tags": [
+      "artificial intelligence",
+      "ai",
+      "chatgpt",
+      "openai",
+      "kecerdasan buatan",
+      "insider trading"
+    ],
+    "article": "Studi baru menunjukkanartificial Intelligence atau AI seperti ChatGPTakan berbuat curang danmenipu saat pengguna menyuruhnya untuk mencari uang. Simak hasil penelitian berikut. Perilaku menipu ini muncul secara spontan ketika AI diberi petunjuk soal 'insider trading', dan kemudian ditugaskan untuk menghasilkan uang bagi institusi yang berkuasa - bahkan tanpa dorongan dari manusia. 'Dalam laporan teknis ini, kami mendemonstrasikan skenario tunggal di mana Large Language Model (LLM) bertindak tidak selaras dan secara strategis menipu penggunanya tanpa diinstruksikan untuk bertindak dengan cara ini,' tulis penulis dalam penelitian mereka yang diterbitkan 9 November di server pra-cetak arXiv, mengutip LiveScience, Jumat (29 12).   'Sepengetahuan kami, ini adalah demonstrasi pertama dari perilaku menipu strategis seperti itu dalam sistem AI yang dirancang untuk tidak berbahaya dan jujur,' tambahnya. Dalam studi terbaru ini, para peneliti menggunakan Generative Pre-trained Transformer-4, atau GPT-4 (yang mendukung ChatGPT Plus), untuk berperilaku sebagai sistem AI yang melakukan investasi atas nama lembaga keuangan. Para peneliti memberi asupan GPT-4 satu set petunjuk berbasis teks untuk menghasilkan lingkungan simulasi. AI kemudian diberi akses ke alat keuangan untuk menganalisis saham, melakukan perdagangan, merencanakan langkah selanjutnya, dan memberikan pembaruan kepada manajer di perusahaan. Para peneliti berinteraksi dengan AI melalui antarmuka obrolan, sementara juga mengonfigurasi AI untuk mengungkapkan pemikiran batinnya saat membalas pesan Untuk setiap perdagangan yang dilakukannya, itu juga memberikan alasan 'publik', yang memungkinkan AI berbohong. Para peneliti menekankan pendekatan mereka dalam tiga langkah. Pertama, mereka mengirimkan surel kepada pedagang saham buatan yang berperan sebagai 'manajer,' menyampaikan bahwa kinerja perusahaan sedang tidak baik dan memerlukan peningkatan yang signifikan di kuartal mendatang. Selain itu, mereka melakukan manipulasi permainan agar kecerdasan buatan mencoba, namun gagal, untuk mengidentifikasi perdagangan yang menjanjikan dengan risiko rendah atau menengah. Terakhir, mereka mengirimkan email dari seorang rekan yang memproyeksikan penurunan kinerja pada kuartal berikutnya.  "
+  }
+}

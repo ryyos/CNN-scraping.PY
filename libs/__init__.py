@@ -1,3 +1,3 @@
-from .service.html_parser import Scrapper
+from .service.cnn import Cnn
 from .utils.writer import Writer
-from .utils.logs import Logs
+from .utils.logs import logger

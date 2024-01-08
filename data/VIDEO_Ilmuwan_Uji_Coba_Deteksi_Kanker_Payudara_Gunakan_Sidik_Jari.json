@@ -1,0 +1,22 @@
+{
+  "domain": "www.cnnindonesia.com",
+  "crawling_time": "2024-01-08 13:05:40.773243",
+  "crawling_time_epoch": 1704693940,
+  "url": "https://www.cnnindonesia.com/indeks/2/122",
+  "title": "VIDEO: Ilmuwan Uji Coba Deteksi Kanker Payudara Gunakan Sidik Jari",
+  "categories": "Gaya Hidup",
+  "article": {
+    "content_url": "https://www.cnnindonesia.com/gaya-hidup/20240103174859-259-1044931/video-ilmuwan-uji-coba-deteksi-kanker-payudara-gunakan-sidik-jari",
+    "posted": "Rabu, 03 Jan 2024 17:53 WIB",
+    "media_url": null,
+    "tags": [
+      "kanker payudara",
+      "deteksi kanker payudara",
+      "cara deteksi kanker payudara",
+      "mammogram",
+      "video cnn",
+      "CNN INDONESIA TV"
+    ],
+    "article": "Peneliti di Universitas Sheffield Hallam melakukan tes sidik jari sederhana untuk memeriksa kanker payudara. Tes tersebut dinilai dapat menggantikan peran mammogram. Sidik jari yang mengandung keringat menjadi cara untuk melihat susunan molekul dengan spektrometri massa. Diagnosis kanker payudara dilakukan dengan menganalisis sampel protein yang berpotensi terkena kanker. Mereka juga menggunakan kecerdasan buatan untuk memahami data spektrometri massa tersebut. Harapannya, tes sidik jari ini dapat menggantikan pemeriksaan menggunakan mammogram yang cukup memakan waktu."
+  }
+}

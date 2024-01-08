@@ -1,0 +1,25 @@
+{
+  "domain": "www.cnnindonesia.com",
+  "crawling_time": "2024-01-08 12:52:40.125563",
+  "crawling_time_epoch": 1704693160,
+  "url": "https://www.cnnindonesia.com/indeks/2/70",
+  "title": "Mengenal Sistem Sinyal Kereta Pencegah Insiden 'Adu Banteng'",
+  "categories": "Teknologi",
+  "article": {
+    "content_url": "https://www.cnnindonesia.com/teknologi/20240105144102-199-1045713/mengenal-sistem-sinyal-kereta-pencegah-insiden-adu-banteng",
+    "posted": "Jumat, 05 Jan 2024 15:00 WIB",
+    "media_url": null,
+    "tags": [
+      "BACA HALAMAN BERIKUTNYA",
+      "kecelakaan kereta",
+      "ka turangga",
+      "sinyal",
+      "krl",
+      "commuter line",
+      "interlocking",
+      "sistem interlocking",
+      "tabrakan"
+    ],
+    "article": "Lalu lintas ereta api dilengkapi mekanisme keselamatan berbasissinyal.Semua perangkatnya tergabung sistem interlocking yang amat penting buatmenjaga agar tak terjadi tabrakan. 'Kereta tidak bisa berhenti begitu saja karena diperlukan perlambatan dari jarak yang cukup jauh untuk keselamatan dan kenyamanan penumpang. Untuk mengamankan perjalanan kereta api tidak terjadi kecelakaan, dibutuhkan perangkat sinyal,' ungkap Agung Prasdianto, Interlocking Software Engineer dari PT LEN Railway System, dalam sebuah webinar, Rabu (23 6 2021), dikutip dari situs ITB. Ia menjelaskan sistem persinyalan ini merupakan sarana untuk menjamin keselamatan perjalanan kereta api dari suatu stasiun menuju stasiun berikutnya.    Sinyal, kata Agung, diperlukan untuk membagi ruang perjalanan kereta api ke dalam petak-petak yang disebut blok. Sinyal inilah yang menjamin agar tak terjadi kecelakaan. PT KAI, dikutip dari situsnya, menyatakan sinyal dan telekomunikasi (sintel) memiliki peran vital dalam mengamankan perjalanan kereta api, baik jalur tunggal maupun ganda. 'Sinyal berfungsi guna mengamankan kereta api yang hendak masuk stasiun, di stasiun dan keluar stasiun. Sedangkan telekomunikasi berguna mengamankan hubungan antar dua stasiun.' Sejak beroperasi di Indonesia pada 1867 (lintas Semarang-Tanggung), ereta api punya beberapa macam persinyalan.  Awalnya, penempatan persinyal di pinggir jalur kereta mempunyai tujuan yang sederhana, yakni sebagai batas penanda perhentian kereta api sebelum masuk stasiun. Fungsi sinyal pun berkembang. Macam sinyal yang pernah dipakai di Indonesia ialah Sinyal Tebeng, Krian, Alkmaar, Siemens & Halske (S&H) dan sinyal elektrik. Sinyal yang pertama kali digunakan ialah sinyal tebeng, berupa piringan berwarna merah yang ditempatkan pada as vertikal yang dapat diputar. Lalu lintas kereta yang semakin ramai membuat operator beralih kepada peralatan yang lebih canggih. Misalnya, sinyal krian, bentuknya peralatan yang dapat mengunci sendiri agar lebih aman dan meninggikan tiang sinyal. Namanya diambil dari lokasi ertama kali dipasang, Stasiun Krian.  Setelah itu, KAI memakai Sinyal Alkmaar mulai 1910. Bentuknya berupa satu atau dua buah lengan ayun yang berjajar atas-bawah serta dikendalikan melalui rumah sinyal. Selain itu tuas-tuas dalam rumah sinyal dipasang agar hanya dapat digerakan satu sinyal dalam waktu yang sama. Kereta api lantas menggunakan Sinyal Siemens & Halske (S&H). Sinyal jenis ini dapat mengatur perjalanan kereta api dalam satu petak (antar dua stasiun) dengan menambahkan sebuah pesawat blok. Dalam operasionalnya, sinyal ini memiliki dua jenis tipe, yakni makanis dan semi otomatis. Pada tipe semi otomatis, setelah kereta api lewat sinyal yang dibuka (lengan naik ke atas) akan kembali pada kedudukan normal (sinyal menutup sendiri). PT KAI menyebut saat ini sebagian besar lintas kereta api sudah dilengkapi dengan persinyal elektrik. Contohnya, Vital Processor Interlocking (VPI), Solid State Interlocking (SSI), Westtrace, System Interlocking Len (SIL).   Agung mengatakan sistem persinyalan ini terdiri dari berbagai bagian. Pertama, pusat pengendali lalu lintas kereta terpusat berupa Centralized Railway Traffic Control System. 'Jadi Centralized Railway Traffic Control System adalah sebuah sistem untuk mengontrol sistem persinyalan dalam kereta api,' ujar alumni Teknik Fisika ITB itu. Kedua, perangkat sinyal. Sejauh ini, ada tiga peralatan yang kerap digunakan dalam operasi perkeretaapian di Indonesia, yaitu tuas mekanik, local control panel, dan visual display unit. Ketiga, operator manusia yang mengoperasikan perangkat-perangkat tersebut. Keempat, juga alat pendeteksi keberadaan kereta api. Ada dua alat yang digunakan, yaitu axle counter dan track circuit. Axle counter bekerja dengan alat bernama evaluator untuk menghitung roda yang lewat.  Sistem interlocking di halaman berikutnya... "
+  }
+}

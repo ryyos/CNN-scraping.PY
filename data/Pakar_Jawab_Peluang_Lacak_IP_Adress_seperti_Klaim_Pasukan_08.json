@@ -1,0 +1,23 @@
+{
+  "domain": "www.cnnindonesia.com",
+  "crawling_time": "2024-01-08 12:51:39.215950",
+  "crawling_time_epoch": 1704693099,
+  "url": "https://www.cnnindonesia.com/indeks/2/65",
+  "title": "Pakar Jawab Peluang Lacak IP Adress seperti Klaim Pasukan 08",
+  "categories": "Teknologi",
+  "article": {
+    "content_url": "https://www.cnnindonesia.com/teknologi/20240105162529-192-1045785/pakar-jawab-peluang-lacak-ip-adress-seperti-klaim-pasukan-08",
+    "posted": "Jumat, 05 Jan 2024 17:59 WIB",
+    "media_url": "https://akcdn.detik.net.id/visual/2021/10/06/ilustrasi-map-gps-di-hp_169.jpeg?w=650&q=90",
+    "tags": [
+      "hacker",
+      "ip adress",
+      "pelacakan lokasi",
+      "pilpres 2024",
+      "prabowo subianto",
+      "keamanan siber",
+      "relawan"
+    ],
+    "article": "Chairman Lembaga Riset Keamanan Siber CISSReC Pratama Persadha menyebut pelacakanIP Address untuk mencari nama dan alamat sebagai sesuatuyang memungkinkan, tetapi bukan hal yang mudah untuk dilakukan. Sebelumnya, Ketua Umum Relawan Pasukan 08, relawannya capres nomor urut 2 PrabowoSubianto,Arfian mengklaim timnya bisa melacak pelaku ujaran kebencian di media sosial. Menurutnya, Pasukan 08 memiliki sumber daya yang dapat melacak pelaku ujaran kebencian secara rinci mulai dari nama dan alamat rumah melalui alamat IP perangkat.    Pratama awalnya mengomentari video yang viral dan menyebutnya bukan video baru, melainkan pernyataan yang disampaikan saat Pasukan 08 mendeklarasikan dukungan kepada Prabowo Subianto pada 8 Mei 2023. Terkait klaim pelacakan lewat IP Address, Pratama mengatakan hal semacam itu memang memungkinkan secara teknis. 'Secara teknis memang memungkinkan untuk melakukan pelacakan serta pencarian informasi pribadi berdasarkan IP address yang dipergunakan oleh seseorang, karena dari IP Adress yang dipergunakan akan bisa diketahui ISP atau Operator Seluler yang dipergunakan untuk mengakses internet,' terang Pratama kepada CNNIndonesia.com lewat pesan teks, Kamis (4 1). 'Dan kemudian bisa dilihat pada log akses di ISP serta Operator Seluler siapa yang menggunakan IP Address pada waktu tersebut, yang kemudian bisa ditelusuri lebih lanjut pada daftar pelanggan alamat rumah dari pemilik akun yang menggunakan IP Adress tersebut,' tambahnya. IP Address menyediakan berbagai informasi yang bisa ditelusuri oleh peretas, mulai dari ISP yang dipakai, info lokasi secara global (biasanya dalam level kota), prakiraan koordinat GPS. Selain itu, browser internet yang dipergunakan, jenis perangkat yang dipakai, nama perangkat yang dipakai, sistem operasi, waktu lokal, dan lain-lain. Peretas juga bisa melakukan serangan siber seperti DDoS ke alamat IP Adress sehingga layanan internet kita akan dapat terganggu. Pratama menambahkan pelacakan akan lebih mudah dilakukan jika IP Address yang digunakan adalahyang untuk pelanggan perusahaan.  Pasalnya, layanan perusahaan atau korporasi menggunakan blok IP tersendiri dan jika dilihat pada informasi whois akan bisa diketahui perusahaan atau organisasi yang menggunakan blok IP tersebut. Pelacakan sendiri akan sulit dilakukan jika pengguna yang dilacak menggunakan layanan VPN sehingga IP Address yang dipergunakan sudah berubah tidak sesuai IP Address asli yang didapatkan dari penyedia layanan internet (ISP) maupun Operator Seluler.  Meski secara teknis memungkinkan, kata Pratama, pada kenyataannya hal tersebut akan sulit dilakukan. Hal ini dikarenakan yang paling pertama adalah untuk mendapatkan IP Adrress dari platform sosial media bukanlah suatu hal yang mudah. 'Karena informasi IP Address tersebut tidak tercantum secara umum pada postingan atau komen dan hanya bisa dilihat oleh system administrator dari platform sosial media,' tuturnya. 'Dimana jika pasukan 08 berhasil mendapatkan data IP Address tersebut maka kemungkinan melalui jalur tidak sah,' lanjut dia.  Untuk mendapatkan logpenggunaIP serta alamatnya tersebut, kita tidak bisa begitu saja meminta kepada ISP serta Operator Seluler. Menurut Pratama,cuma aparat penegakan hukum yang memiliki hak untuk meminta data tersebut.Itu pun harus sesuai dengan prosedur yang sudah disepakati, sepertiada surat aduan serta surat perintah penyidikan. 'Jika memang Pasukan 08 bisa mendapatkan informasi tersebut dari ISP ataupun Operator Seluler melalui jalur lain, hal tersebut akan sangat riskan bagi ISP serta Operator Seluler,' ungkap dia. 'Karena mereka (ISP dan Opsel) akan dianggap membocorkan data pribadi dan hal tersebut dapat dikenakan sanksi hukum sesuai UU PDP,'jelasPratama.   "
+  }
+}
