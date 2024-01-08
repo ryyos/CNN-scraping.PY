@@ -1,5 +1,6 @@
 import json
 
+# class yang di gunakan untuk menulis content kedalam file
 class Writer:
     def __init__(self) -> None:
         pass

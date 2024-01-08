@@ -1,5 +1,10 @@
 from pyquery import PyQuery
 
+
+""" HtmlParser
+class yang di gunakan untuk memparser atau memfilter HTML 
+berdasarkan seletor yang di tentukan
+"""
 class HtmlParser:
     def __init__(self) -> None:
         pass
